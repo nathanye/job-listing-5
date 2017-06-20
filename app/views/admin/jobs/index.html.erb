@@ -11,7 +11,7 @@
       <%= link_to(job.title, admin_job_path(job)) %>
     </td>
     <td>
-      <%= link_to("编辑", edit_admin_job_path(job)) ％>
+      <%= link_to("编辑", edit_admin_job_path(job)) %>
       <%= link_to("删除", admin_job_path(job), :method => :delete, :data => { :confirm => "你确定要删除吗？" }) %>
     </td>
     <td>
